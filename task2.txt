@@ -1,0 +1,659 @@
+ls -l /dev
+total 0
+crw-------  1 root        wheel           19,   1  9 сен 22:27 afsc_type5
+crw-------  1 root        wheel           11,   0 29 авг 15:01 auditpipe
+crw-r--r--  1 root        wheel           10,   3 29 авг 15:01 auditsessions
+crw-------  1 root        wheel           22,   0 29 авг 15:03 autofs
+crw-------  1 root        wheel           34,   0 29 авг 15:03 autofs_control
+crw-rw-rw-  1 root        wheel           33, 0x000001f5 29 авг 15:03 autofs_homedirmounter
+crw-rw-rw-  1 root        wheel           32, 0x000001f5 29 авг 15:03 autofs_notrigger
+crw-rw-rw-  1 root        wheel           31, 0x000072e9 29 авг 15:03 autofs_nowait
+crw-------  1 root        wheel           23,   0 29 авг 15:03 bpf0
+crw-------  1 root        wheel           23,   1 29 авг 15:01 bpf1
+crw-------  1 root        wheel           23,   2 10 сен 13:34 bpf2
+crw-------  1 root        wheel           23,   3 10 сен 13:34 bpf3
+crw-------  1 root        wheel           23,   4 30 авг 16:04 bpf4
+crw-------  1 electfreak  staff            0,   0 29 авг 15:07 console
+crw-rw-rw-  1 root        wheel            9,   1 29 авг 15:03 cu.Bluetooth-Incoming-Port
+brw-r-----  1 root        operator         1,   0 29 авг 15:01 disk0
+brw-r-----  1 root        operator         1,   1 29 авг 15:01 disk0s1
+brw-r-----  1 root        operator         1,   2 29 авг 15:01 disk0s2
+brw-r-----  1 root        operator         1,   3 29 авг 15:01 disk1
+brw-r-----  1 root        operator         1,   4 29 авг 15:01 disk1s1
+brw-r-----  1 root        operator         1,   5 29 авг 15:01 disk1s2
+brw-r-----  1 root        operator         1,   6 29 авг 15:01 disk1s3
+brw-r-----  1 root        operator         1,   8 29 авг 15:01 disk1s4
+brw-r-----  1 root        operator         1,   7 29 авг 15:01 disk1s5
+crw-rw-rw-  1 root        wheel           24,   6 29 авг 15:01 dtrace
+crw-rw-rw-  1 root        wheel           25,   0 29 авг 15:01 dtracehelper
+crw-rw-rw-  1 root        wheel            0,   0 29 авг 15:01 fbt
+dr-xr-xr-x  1 root        wheel                 0 29 авг 15:01 fd
+crw-r--r--  1 root        wheel           14,   0 29 авг 15:01 fsevents
+crw-rw-rw-  1 root        wheel           20,  14 10 сен 13:44 io8log
+cr--r--r--  1 root        wheel           20,  15 29 авг 15:01 io8logmt
+crw-rw-rw-  1 root        wheel           20,  12 10 сен 14:00 io8logtemp
+crw-------  1 root        wheel            6,   0 29 авг 15:01 klog
+crw-rw-rw-  1 root        wheel            0,   0 29 авг 15:01 lockstat
+crw-rw-rw-  1 root        wheel            0,   0 29 авг 15:01 machtrace
+crw-rw-rw-  1 root        wheel            3,   2 10 сен 14:04 null
+crw-------  1 root        wheel            7,   0 29 авг 15:01 oslog
+crw-------  1 root        wheel            8,   0 29 авг 15:01 oslog_stream
+crw-------  1 root        wheel           13,   0 29 авг 15:01 pf
+crw-------  1 root        wheel           13,   1 29 авг 15:01 pfm
+crw-rw-rw-  1 root        wheel            0,   0 29 авг 15:01 profile
+crw-rw-rw-  1 root        tty             15,   2 10 сен 14:04 ptmx
+crw-rw-rw-  1 root        wheel            5,   0 29 авг 15:01 ptyp0
+crw-rw-rw-  1 root        wheel            5,   1 29 авг 15:01 ptyp1
+crw-rw-rw-  1 root        wheel            5,   2 29 авг 15:01 ptyp2
+crw-rw-rw-  1 root        wheel            5,   3 29 авг 15:01 ptyp3
+crw-rw-rw-  1 root        wheel            5,   4 29 авг 15:01 ptyp4
+crw-rw-rw-  1 root        wheel            5,   5 29 авг 15:01 ptyp5
+crw-rw-rw-  1 root        wheel            5,   6 29 авг 15:01 ptyp6
+crw-rw-rw-  1 root        wheel            5,   7 29 авг 15:01 ptyp7
+crw-rw-rw-  1 root        wheel            5,   8 29 авг 15:01 ptyp8
+crw-rw-rw-  1 root        wheel            5,   9 29 авг 15:01 ptyp9
+crw-rw-rw-  1 root        wheel            5,  10 29 авг 15:01 ptypa
+crw-rw-rw-  1 root        wheel            5,  11 29 авг 15:01 ptypb
+crw-rw-rw-  1 root        wheel            5,  12 29 авг 15:01 ptypc
+crw-rw-rw-  1 root        wheel            5,  13 29 авг 15:01 ptypd
+crw-rw-rw-  1 root        wheel            5,  14 29 авг 15:01 ptype
+crw-rw-rw-  1 root        wheel            5,  15 29 авг 15:01 ptypf
+crw-rw-rw-  1 root        wheel            5,  16 29 авг 15:01 ptyq0
+crw-rw-rw-  1 root        wheel            5,  17 29 авг 15:01 ptyq1
+crw-rw-rw-  1 root        wheel            5,  18 29 авг 15:01 ptyq2
+crw-rw-rw-  1 root        wheel            5,  19 29 авг 15:01 ptyq3
+crw-rw-rw-  1 root        wheel            5,  20 29 авг 15:01 ptyq4
+crw-rw-rw-  1 root        wheel            5,  21 29 авг 15:01 ptyq5
+crw-rw-rw-  1 root        wheel            5,  22 29 авг 15:01 ptyq6
+crw-rw-rw-  1 root        wheel            5,  23 29 авг 15:01 ptyq7
+crw-rw-rw-  1 root        wheel            5,  24 29 авг 15:01 ptyq8
+crw-rw-rw-  1 root        wheel            5,  25 29 авг 15:01 ptyq9
+crw-rw-rw-  1 root        wheel            5,  26 29 авг 15:01 ptyqa
+crw-rw-rw-  1 root        wheel            5,  27 29 авг 15:01 ptyqb
+crw-rw-rw-  1 root        wheel            5,  28 29 авг 15:01 ptyqc
+crw-rw-rw-  1 root        wheel            5,  29 29 авг 15:01 ptyqd
+crw-rw-rw-  1 root        wheel            5,  30 29 авг 15:01 ptyqe
+crw-rw-rw-  1 root        wheel            5,  31 29 авг 15:01 ptyqf
+crw-rw-rw-  1 root        wheel            5,  32 29 авг 15:01 ptyr0
+crw-rw-rw-  1 root        wheel            5,  33 29 авг 15:01 ptyr1
+crw-rw-rw-  1 root        wheel            5,  34 29 авг 15:01 ptyr2
+crw-rw-rw-  1 root        wheel            5,  35 29 авг 15:01 ptyr3
+crw-rw-rw-  1 root        wheel            5,  36 29 авг 15:01 ptyr4
+crw-rw-rw-  1 root        wheel            5,  37 29 авг 15:01 ptyr5
+crw-rw-rw-  1 root        wheel            5,  38 29 авг 15:01 ptyr6
+crw-rw-rw-  1 root        wheel            5,  39 29 авг 15:01 ptyr7
+crw-rw-rw-  1 root        wheel            5,  40 29 авг 15:01 ptyr8
+crw-rw-rw-  1 root        wheel            5,  41 29 авг 15:01 ptyr9
+crw-rw-rw-  1 root        wheel            5,  42 29 авг 15:01 ptyra
+crw-rw-rw-  1 root        wheel            5,  43 29 авг 15:01 ptyrb
+crw-rw-rw-  1 root        wheel            5,  44 29 авг 15:01 ptyrc
+crw-rw-rw-  1 root        wheel            5,  45 29 авг 15:01 ptyrd
+crw-rw-rw-  1 root        wheel            5,  46 29 авг 15:01 ptyre
+crw-rw-rw-  1 root        wheel            5,  47 29 авг 15:01 ptyrf
+crw-rw-rw-  1 root        wheel            5,  48 29 авг 15:01 ptys0
+crw-rw-rw-  1 root        wheel            5,  49 29 авг 15:01 ptys1
+crw-rw-rw-  1 root        wheel            5,  50 29 авг 15:01 ptys2
+crw-rw-rw-  1 root        wheel            5,  51 29 авг 15:01 ptys3
+crw-rw-rw-  1 root        wheel            5,  52 29 авг 15:01 ptys4
+crw-rw-rw-  1 root        wheel            5,  53 29 авг 15:01 ptys5
+crw-rw-rw-  1 root        wheel            5,  54 29 авг 15:01 ptys6
+crw-rw-rw-  1 root        wheel            5,  55 29 авг 15:01 ptys7
+crw-rw-rw-  1 root        wheel            5,  56 29 авг 15:01 ptys8
+crw-rw-rw-  1 root        wheel            5,  57 29 авг 15:01 ptys9
+crw-rw-rw-  1 root        wheel            5,  58 29 авг 15:01 ptysa
+crw-rw-rw-  1 root        wheel            5,  59 29 авг 15:01 ptysb
+crw-rw-rw-  1 root        wheel            5,  60 29 авг 15:01 ptysc
+crw-rw-rw-  1 root        wheel            5,  61 29 авг 15:01 ptysd
+crw-rw-rw-  1 root        wheel            5,  62 29 авг 15:01 ptyse
+crw-rw-rw-  1 root        wheel            5,  63 29 авг 15:01 ptysf
+crw-rw-rw-  1 root        wheel            5,  64 29 авг 15:01 ptyt0
+crw-rw-rw-  1 root        wheel            5,  65 29 авг 15:01 ptyt1
+crw-rw-rw-  1 root        wheel            5,  66 29 авг 15:01 ptyt2
+crw-rw-rw-  1 root        wheel            5,  67 29 авг 15:01 ptyt3
+crw-rw-rw-  1 root        wheel            5,  68 29 авг 15:01 ptyt4
+crw-rw-rw-  1 root        wheel            5,  69 29 авг 15:01 ptyt5
+crw-rw-rw-  1 root        wheel            5,  70 29 авг 15:01 ptyt6
+crw-rw-rw-  1 root        wheel            5,  71 29 авг 15:01 ptyt7
+crw-rw-rw-  1 root        wheel            5,  72 29 авг 15:01 ptyt8
+crw-rw-rw-  1 root        wheel            5,  73 29 авг 15:01 ptyt9
+crw-rw-rw-  1 root        wheel            5,  74 29 авг 15:01 ptyta
+crw-rw-rw-  1 root        wheel            5,  75 29 авг 15:01 ptytb
+crw-rw-rw-  1 root        wheel            5,  76 29 авг 15:01 ptytc
+crw-rw-rw-  1 root        wheel            5,  77 29 авг 15:01 ptytd
+crw-rw-rw-  1 root        wheel            5,  78 29 авг 15:01 ptyte
+crw-rw-rw-  1 root        wheel            5,  79 29 авг 15:01 ptytf
+crw-rw-rw-  1 root        wheel            5,  80 29 авг 15:01 ptyu0
+crw-rw-rw-  1 root        wheel            5,  81 29 авг 15:01 ptyu1
+crw-rw-rw-  1 root        wheel            5,  82 29 авг 15:01 ptyu2
+crw-rw-rw-  1 root        wheel            5,  83 29 авг 15:01 ptyu3
+crw-rw-rw-  1 root        wheel            5,  84 29 авг 15:01 ptyu4
+crw-rw-rw-  1 root        wheel            5,  85 29 авг 15:01 ptyu5
+crw-rw-rw-  1 root        wheel            5,  86 29 авг 15:01 ptyu6
+crw-rw-rw-  1 root        wheel            5,  87 29 авг 15:01 ptyu7
+crw-rw-rw-  1 root        wheel            5,  88 29 авг 15:01 ptyu8
+crw-rw-rw-  1 root        wheel            5,  89 29 авг 15:01 ptyu9
+crw-rw-rw-  1 root        wheel            5,  90 29 авг 15:01 ptyua
+crw-rw-rw-  1 root        wheel            5,  91 29 авг 15:01 ptyub
+crw-rw-rw-  1 root        wheel            5,  92 29 авг 15:01 ptyuc
+crw-rw-rw-  1 root        wheel            5,  93 29 авг 15:01 ptyud
+crw-rw-rw-  1 root        wheel            5,  94 29 авг 15:01 ptyue
+crw-rw-rw-  1 root        wheel            5,  95 29 авг 15:01 ptyuf
+crw-rw-rw-  1 root        wheel            5,  96 29 авг 15:01 ptyv0
+crw-rw-rw-  1 root        wheel            5,  97 29 авг 15:01 ptyv1
+crw-rw-rw-  1 root        wheel            5,  98 29 авг 15:01 ptyv2
+crw-rw-rw-  1 root        wheel            5,  99 29 авг 15:01 ptyv3
+crw-rw-rw-  1 root        wheel            5, 100 29 авг 15:01 ptyv4
+crw-rw-rw-  1 root        wheel            5, 101 29 авг 15:01 ptyv5
+crw-rw-rw-  1 root        wheel            5, 102 29 авг 15:01 ptyv6
+crw-rw-rw-  1 root        wheel            5, 103 29 авг 15:01 ptyv7
+crw-rw-rw-  1 root        wheel            5, 104 29 авг 15:01 ptyv8
+crw-rw-rw-  1 root        wheel            5, 105 29 авг 15:01 ptyv9
+crw-rw-rw-  1 root        wheel            5, 106 29 авг 15:01 ptyva
+crw-rw-rw-  1 root        wheel            5, 107 29 авг 15:01 ptyvb
+crw-rw-rw-  1 root        wheel            5, 108 29 авг 15:01 ptyvc
+crw-rw-rw-  1 root        wheel            5, 109 29 авг 15:01 ptyvd
+crw-rw-rw-  1 root        wheel            5, 110 29 авг 15:01 ptyve
+crw-rw-rw-  1 root        wheel            5, 111 29 авг 15:01 ptyvf
+crw-rw-rw-  1 root        wheel            5, 112 29 авг 15:01 ptyw0
+crw-rw-rw-  1 root        wheel            5, 113 29 авг 15:01 ptyw1
+crw-rw-rw-  1 root        wheel            5, 114 29 авг 15:01 ptyw2
+crw-rw-rw-  1 root        wheel            5, 115 29 авг 15:01 ptyw3
+crw-rw-rw-  1 root        wheel            5, 116 29 авг 15:01 ptyw4
+crw-rw-rw-  1 root        wheel            5, 117 29 авг 15:01 ptyw5
+crw-rw-rw-  1 root        wheel            5, 118 29 авг 15:01 ptyw6
+crw-rw-rw-  1 root        wheel            5, 119 29 авг 15:01 ptyw7
+crw-rw-rw-  1 root        wheel            5, 120 29 авг 15:01 ptyw8
+crw-rw-rw-  1 root        wheel            5, 121 29 авг 15:01 ptyw9
+crw-rw-rw-  1 root        wheel            5, 122 29 авг 15:01 ptywa
+crw-rw-rw-  1 root        wheel            5, 123 29 авг 15:01 ptywb
+crw-rw-rw-  1 root        wheel            5, 124 29 авг 15:01 ptywc
+crw-rw-rw-  1 root        wheel            5, 125 29 авг 15:01 ptywd
+crw-rw-rw-  1 root        wheel            5, 126 29 авг 15:01 ptywe
+crw-rw-rw-  1 root        wheel            5, 127 29 авг 15:01 ptywf
+crw-rw-rw-  1 root        wheel           17,   0 29 авг 15:02 random
+crw-r-----  1 root        operator         1,   0 29 авг 15:01 rdisk0
+crw-r-----  1 root        operator         1,   1 29 авг 15:01 rdisk0s1
+crw-r-----  1 root        operator         1,   2 29 авг 15:01 rdisk0s2
+crw-r-----  1 root        operator         1,   3 29 авг 15:01 rdisk1
+crw-r-----  1 root        operator         1,   4 29 авг 15:01 rdisk1s1
+crw-r-----  1 root        operator         1,   5 29 авг 15:01 rdisk1s2
+crw-r-----  1 root        operator         1,   6 29 авг 15:01 rdisk1s3
+crw-r-----  1 root        operator         1,   8 29 авг 15:01 rdisk1s4
+crw-r-----  1 root        operator         1,   7 29 авг 15:01 rdisk1s5
+crw-rw-rw-  1 root        wheel            0,   0 29 авг 15:01 sdt
+lr-xr-xr-x  1 root        wheel                 0 29 авг 15:01 stderr -> fd/2
+lr-xr-xr-x  1 root        wheel                 0 29 авг 15:01 stdin -> fd/0
+lr-xr-xr-x  1 root        wheel                 0 29 авг 15:01 stdout -> fd/1
+crw-rw-rw-  1 root        wheel            0,   0 29 авг 15:01 systrace
+crw-rw-rw-  1 root        wheel            2,   0 10 сен 11:10 tty
+crw-rw-rw-  1 root        wheel            9,   0 29 авг 15:03 tty.Bluetooth-Incoming-Port
+crw-rw-rw-  1 root        wheel            4,   0 29 авг 15:01 ttyp0
+crw-rw-rw-  1 root        wheel            4,   1 29 авг 15:01 ttyp1
+crw-rw-rw-  1 root        wheel            4,   2 29 авг 15:01 ttyp2
+crw-rw-rw-  1 root        wheel            4,   3 29 авг 15:01 ttyp3
+crw-rw-rw-  1 root        wheel            4,   4 29 авг 15:01 ttyp4
+crw-rw-rw-  1 root        wheel            4,   5 29 авг 15:01 ttyp5
+crw-rw-rw-  1 root        wheel            4,   6 29 авг 15:01 ttyp6
+crw-rw-rw-  1 root        wheel            4,   7 29 авг 15:01 ttyp7
+crw-rw-rw-  1 root        wheel            4,   8 29 авг 15:01 ttyp8
+crw-rw-rw-  1 root        wheel            4,   9 29 авг 15:01 ttyp9
+crw-rw-rw-  1 root        wheel            4,  10 29 авг 15:01 ttypa
+crw-rw-rw-  1 root        wheel            4,  11 29 авг 15:01 ttypb
+crw-rw-rw-  1 root        wheel            4,  12 29 авг 15:01 ttypc
+crw-rw-rw-  1 root        wheel            4,  13 29 авг 15:01 ttypd
+crw-rw-rw-  1 root        wheel            4,  14 29 авг 15:01 ttype
+crw-rw-rw-  1 root        wheel            4,  15 29 авг 15:01 ttypf
+crw-rw-rw-  1 root        wheel            4,  16 29 авг 15:01 ttyq0
+crw-rw-rw-  1 root        wheel            4,  17 29 авг 15:01 ttyq1
+crw-rw-rw-  1 root        wheel            4,  18 29 авг 15:01 ttyq2
+crw-rw-rw-  1 root        wheel            4,  19 29 авг 15:01 ttyq3
+crw-rw-rw-  1 root        wheel            4,  20 29 авг 15:01 ttyq4
+crw-rw-rw-  1 root        wheel            4,  21 29 авг 15:01 ttyq5
+crw-rw-rw-  1 root        wheel            4,  22 29 авг 15:01 ttyq6
+crw-rw-rw-  1 root        wheel            4,  23 29 авг 15:01 ttyq7
+crw-rw-rw-  1 root        wheel            4,  24 29 авг 15:01 ttyq8
+crw-rw-rw-  1 root        wheel            4,  25 29 авг 15:01 ttyq9
+crw-rw-rw-  1 root        wheel            4,  26 29 авг 15:01 ttyqa
+crw-rw-rw-  1 root        wheel            4,  27 29 авг 15:01 ttyqb
+crw-rw-rw-  1 root        wheel            4,  28 29 авг 15:01 ttyqc
+crw-rw-rw-  1 root        wheel            4,  29 29 авг 15:01 ttyqd
+crw-rw-rw-  1 root        wheel            4,  30 29 авг 15:01 ttyqe
+crw-rw-rw-  1 root        wheel            4,  31 29 авг 15:01 ttyqf
+crw-rw-rw-  1 root        wheel            4,  32 29 авг 15:01 ttyr0
+crw-rw-rw-  1 root        wheel            4,  33 29 авг 15:01 ttyr1
+crw-rw-rw-  1 root        wheel            4,  34 29 авг 15:01 ttyr2
+crw-rw-rw-  1 root        wheel            4,  35 29 авг 15:01 ttyr3
+crw-rw-rw-  1 root        wheel            4,  36 29 авг 15:01 ttyr4
+crw-rw-rw-  1 root        wheel            4,  37 29 авг 15:01 ttyr5
+crw-rw-rw-  1 root        wheel            4,  38 29 авг 15:01 ttyr6
+crw-rw-rw-  1 root        wheel            4,  39 29 авг 15:01 ttyr7
+crw-rw-rw-  1 root        wheel            4,  40 29 авг 15:01 ttyr8
+crw-rw-rw-  1 root        wheel            4,  41 29 авг 15:01 ttyr9
+crw-rw-rw-  1 root        wheel            4,  42 29 авг 15:01 ttyra
+crw-rw-rw-  1 root        wheel            4,  43 29 авг 15:01 ttyrb
+crw-rw-rw-  1 root        wheel            4,  44 29 авг 15:01 ttyrc
+crw-rw-rw-  1 root        wheel            4,  45 29 авг 15:01 ttyrd
+crw-rw-rw-  1 root        wheel            4,  46 29 авг 15:01 ttyre
+crw-rw-rw-  1 root        wheel            4,  47 29 авг 15:01 ttyrf
+crw-rw-rw-  1 root        wheel            4,  48 29 авг 15:01 ttys0
+crw--w----  1 electfreak  tty             16,   0 10 сен 14:04 ttys000
+crw--w----  1 electfreak  tty             16,   1 10 сен 14:02 ttys001
+crw-rw-rw-  1 root        wheel            4,  49 29 авг 15:01 ttys1
+crw-rw-rw-  1 root        wheel            4,  50 29 авг 15:01 ttys2
+crw-rw-rw-  1 root        wheel            4,  51 29 авг 15:01 ttys3
+crw-rw-rw-  1 root        wheel            4,  52 29 авг 15:01 ttys4
+crw-rw-rw-  1 root        wheel            4,  53 29 авг 15:01 ttys5
+crw-rw-rw-  1 root        wheel            4,  54 29 авг 15:01 ttys6
+crw-rw-rw-  1 root        wheel            4,  55 29 авг 15:01 ttys7
+crw-rw-rw-  1 root        wheel            4,  56 29 авг 15:01 ttys8
+crw-rw-rw-  1 root        wheel            4,  57 29 авг 15:01 ttys9
+crw-rw-rw-  1 root        wheel            4,  58 29 авг 15:01 ttysa
+crw-rw-rw-  1 root        wheel            4,  59 29 авг 15:01 ttysb
+crw-rw-rw-  1 root        wheel            4,  60 29 авг 15:01 ttysc
+crw-rw-rw-  1 root        wheel            4,  61 29 авг 15:01 ttysd
+crw-rw-rw-  1 root        wheel            4,  62 29 авг 15:01 ttyse
+crw-rw-rw-  1 root        wheel            4,  63 29 авг 15:01 ttysf
+crw-rw-rw-  1 root        wheel            4,  64 29 авг 15:01 ttyt0
+crw-rw-rw-  1 root        wheel            4,  65 29 авг 15:01 ttyt1
+crw-rw-rw-  1 root        wheel            4,  66 29 авг 15:01 ttyt2
+crw-rw-rw-  1 root        wheel            4,  67 29 авг 15:01 ttyt3
+crw-rw-rw-  1 root        wheel            4,  68 29 авг 15:01 ttyt4
+crw-rw-rw-  1 root        wheel            4,  69 29 авг 15:01 ttyt5
+crw-rw-rw-  1 root        wheel            4,  70 29 авг 15:01 ttyt6
+crw-rw-rw-  1 root        wheel            4,  71 29 авг 15:01 ttyt7
+crw-rw-rw-  1 root        wheel            4,  72 29 авг 15:01 ttyt8
+crw-rw-rw-  1 root        wheel            4,  73 29 авг 15:01 ttyt9
+crw-rw-rw-  1 root        wheel            4,  74 29 авг 15:01 ttyta
+crw-rw-rw-  1 root        wheel            4,  75 29 авг 15:01 ttytb
+crw-rw-rw-  1 root        wheel            4,  76 29 авг 15:01 ttytc
+crw-rw-rw-  1 root        wheel            4,  77 29 авг 15:01 ttytd
+crw-rw-rw-  1 root        wheel            4,  78 29 авг 15:01 ttyte
+crw-rw-rw-  1 root        wheel            4,  79 29 авг 15:01 ttytf
+crw-rw-rw-  1 root        wheel            4,  80 29 авг 15:01 ttyu0
+crw-rw-rw-  1 root        wheel            4,  81 29 авг 15:01 ttyu1
+crw-rw-rw-  1 root        wheel            4,  82 29 авг 15:01 ttyu2
+crw-rw-rw-  1 root        wheel            4,  83 29 авг 15:01 ttyu3
+crw-rw-rw-  1 root        wheel            4,  84 29 авг 15:01 ttyu4
+crw-rw-rw-  1 root        wheel            4,  85 29 авг 15:01 ttyu5
+crw-rw-rw-  1 root        wheel            4,  86 29 авг 15:01 ttyu6
+crw-rw-rw-  1 root        wheel            4,  87 29 авг 15:01 ttyu7
+crw-rw-rw-  1 root        wheel            4,  88 29 авг 15:01 ttyu8
+crw-rw-rw-  1 root        wheel            4,  89 29 авг 15:01 ttyu9
+crw-rw-rw-  1 root        wheel            4,  90 29 авг 15:01 ttyua
+crw-rw-rw-  1 root        wheel            4,  91 29 авг 15:01 ttyub
+crw-rw-rw-  1 root        wheel            4,  92 29 авг 15:01 ttyuc
+crw-rw-rw-  1 root        wheel            4,  93 29 авг 15:01 ttyud
+crw-rw-rw-  1 root        wheel            4,  94 29 авг 15:01 ttyue
+crw-rw-rw-  1 root        wheel            4,  95 29 авг 15:01 ttyuf
+crw-rw-rw-  1 root        wheel            4,  96 29 авг 15:01 ttyv0
+crw-rw-rw-  1 root        wheel            4,  97 29 авг 15:01 ttyv1
+crw-rw-rw-  1 root        wheel            4,  98 29 авг 15:01 ttyv2
+crw-rw-rw-  1 root        wheel            4,  99 29 авг 15:01 ttyv3
+crw-rw-rw-  1 root        wheel            4, 100 29 авг 15:01 ttyv4
+crw-rw-rw-  1 root        wheel            4, 101 29 авг 15:01 ttyv5
+crw-rw-rw-  1 root        wheel            4, 102 29 авг 15:01 ttyv6
+crw-rw-rw-  1 root        wheel            4, 103 29 авг 15:01 ttyv7
+crw-rw-rw-  1 root        wheel            4, 104 29 авг 15:01 ttyv8
+crw-rw-rw-  1 root        wheel            4, 105 29 авг 15:01 ttyv9
+crw-rw-rw-  1 root        wheel            4, 106 29 авг 15:01 ttyva
+crw-rw-rw-  1 root        wheel            4, 107 29 авг 15:01 ttyvb
+crw-rw-rw-  1 root        wheel            4, 108 29 авг 15:01 ttyvc
+crw-rw-rw-  1 root        wheel            4, 109 29 авг 15:01 ttyvd
+crw-rw-rw-  1 root        wheel            4, 110 29 авг 15:01 ttyve
+crw-rw-rw-  1 root        wheel            4, 111 29 авг 15:01 ttyvf
+crw-rw-rw-  1 root        wheel            4, 112 29 авг 15:01 ttyw0
+crw-rw-rw-  1 root        wheel            4, 113 29 авг 15:01 ttyw1
+crw-rw-rw-  1 root        wheel            4, 114 29 авг 15:01 ttyw2
+crw-rw-rw-  1 root        wheel            4, 115 29 авг 15:01 ttyw3
+crw-rw-rw-  1 root        wheel            4, 116 29 авг 15:01 ttyw4
+crw-rw-rw-  1 root        wheel            4, 117 29 авг 15:01 ttyw5
+crw-rw-rw-  1 root        wheel            4, 118 29 авг 15:01 ttyw6
+crw-rw-rw-  1 root        wheel            4, 119 29 авг 15:01 ttyw7
+crw-rw-rw-  1 root        wheel            4, 120 29 авг 15:01 ttyw8
+crw-rw-rw-  1 root        wheel            4, 121 29 авг 15:01 ttyw9
+crw-rw-rw-  1 root        wheel            4, 122 29 авг 15:01 ttywa
+crw-rw-rw-  1 root        wheel            4, 123 29 авг 15:01 ttywb
+crw-rw-rw-  1 root        wheel            4, 124 29 авг 15:01 ttywc
+crw-rw-rw-  1 root        wheel            4, 125 29 авг 15:01 ttywd
+crw-rw-rw-  1 root        wheel            4, 126 29 авг 15:01 ttywe
+crw-rw-rw-  1 root        wheel            4, 127 29 авг 15:01 ttywf
+crw-rw-rw-  1 root        wheel           35,   0 29 авг 15:03 uart.BLTH
+crw-rw-rw-  1 root        wheel           17,   1 29 авг 15:01 urandom
+crw-------  1 root        wheel           36,   0 29 авг 15:03 vboxdrv
+crw-rw-rw-  1 root        wheel           36,   1 29 авг 15:03 vboxdrvu
+crw-------  1 root        wheel           37,   0 29 авг 15:03 vboxnetctl
+crw-rw----  1 root        _windowserver   21,   0 29 авг 15:01 xcpm
+crw-rw-rw-  1 root        wheel            3,   3 29 авг 15:01 zero
+cd /dev
+file *
+/dev/afsc_type5:                  character special (19/1)
+/dev/auditpipe:                   character special (11/0)
+/dev/auditsessions:               character special (10/3)
+/dev/autofs:                      character special (22/0)
+/dev/autofs_control:              character special (34/0)
+/dev/autofs_homedirmounter:       character special (33/505)
+/dev/autofs_notrigger:            character special (32/505)
+/dev/autofs_nowait:               character special (31/29469)
+/dev/bpf0:                        character special (23/0)
+/dev/bpf1:                        character special (23/1)
+/dev/bpf2:                        character special (23/2)
+/dev/bpf3:                        character special (23/3)
+/dev/bpf4:                        character special (23/4)
+/dev/console:                     character special (0/0)
+/dev/cu.Bluetooth-Incoming-Port:  character special (9/1)
+/dev/disk0:                       block special (1/0)
+/dev/disk0s1:                     block special (1/1)
+/dev/disk0s2:                     block special (1/2)
+/dev/disk1:                       block special (1/3)
+/dev/disk1s1:                     block special (1/4)
+/dev/disk1s2:                     block special (1/5)
+/dev/disk1s3:                     block special (1/6)
+/dev/disk1s4:                     block special (1/8)
+/dev/disk1s5:                     block special (1/7)
+/dev/dtrace:                      character special (24/10)
+/dev/dtracehelper:                character special (25/0)
+/dev/fbt:                         character special (0/0)
+/dev/fd:                          directory
+/dev/fsevents:                    character special (14/0)
+/dev/io8log:                      character special (20/12)
+/dev/io8logmt:                    character special (20/13)
+/dev/io8logtemp:                  character special (20/14)
+/dev/klog:                        character special (6/0)
+/dev/lockstat:                    character special (0/0)
+/dev/machtrace:                   character special (0/0)
+/dev/null:                        character special (3/2)
+/dev/oslog:                       character special (7/0)
+/dev/oslog_stream:                character special (8/0)
+/dev/pf:                          character special (13/0)
+/dev/pfm:                         character special (13/1)
+/dev/profile:                     character special (0/0)
+/dev/ptmx:                        character special (15/2)
+/dev/ptyp0:                       character special (5/0)
+/dev/ptyp1:                       character special (5/1)
+/dev/ptyp2:                       character special (5/2)
+/dev/ptyp3:                       character special (5/3)
+/dev/ptyp4:                       character special (5/4)
+/dev/ptyp5:                       character special (5/5)
+/dev/ptyp6:                       character special (5/6)
+/dev/ptyp7:                       character special (5/7)
+/dev/ptyp8:                       character special (5/8)
+/dev/ptyp9:                       character special (5/9)
+/dev/ptypa:                       character special (5/10)
+/dev/ptypb:                       character special (5/11)
+/dev/ptypc:                       character special (5/12)
+/dev/ptypd:                       character special (5/13)
+/dev/ptype:                       character special (5/14)
+/dev/ptypf:                       character special (5/15)
+/dev/ptyq0:                       character special (5/16)
+/dev/ptyq1:                       character special (5/17)
+/dev/ptyq2:                       character special (5/18)
+/dev/ptyq3:                       character special (5/19)
+/dev/ptyq4:                       character special (5/20)
+/dev/ptyq5:                       character special (5/21)
+/dev/ptyq6:                       character special (5/22)
+/dev/ptyq7:                       character special (5/23)
+/dev/ptyq8:                       character special (5/24)
+/dev/ptyq9:                       character special (5/25)
+/dev/ptyqa:                       character special (5/26)
+/dev/ptyqb:                       character special (5/27)
+/dev/ptyqc:                       character special (5/28)
+/dev/ptyqd:                       character special (5/29)
+/dev/ptyqe:                       character special (5/30)
+/dev/ptyqf:                       character special (5/31)
+/dev/ptyr0:                       character special (5/32)
+/dev/ptyr1:                       character special (5/33)
+/dev/ptyr2:                       character special (5/34)
+/dev/ptyr3:                       character special (5/35)
+/dev/ptyr4:                       character special (5/36)
+/dev/ptyr5:                       character special (5/37)
+/dev/ptyr6:                       character special (5/38)
+/dev/ptyr7:                       character special (5/39)
+/dev/ptyr8:                       character special (5/40)
+/dev/ptyr9:                       character special (5/41)
+/dev/ptyra:                       character special (5/42)
+/dev/ptyrb:                       character special (5/43)
+/dev/ptyrc:                       character special (5/44)
+/dev/ptyrd:                       character special (5/45)
+/dev/ptyre:                       character special (5/46)
+/dev/ptyrf:                       character special (5/47)
+/dev/ptys0:                       character special (5/48)
+/dev/ptys1:                       character special (5/49)
+/dev/ptys2:                       character special (5/50)
+/dev/ptys3:                       character special (5/51)
+/dev/ptys4:                       character special (5/52)
+/dev/ptys5:                       character special (5/53)
+/dev/ptys6:                       character special (5/54)
+/dev/ptys7:                       character special (5/55)
+/dev/ptys8:                       character special (5/56)
+/dev/ptys9:                       character special (5/57)
+/dev/ptysa:                       character special (5/58)
+/dev/ptysb:                       character special (5/59)
+/dev/ptysc:                       character special (5/60)
+/dev/ptysd:                       character special (5/61)
+/dev/ptyse:                       character special (5/62)
+/dev/ptysf:                       character special (5/63)
+/dev/ptyt0:                       character special (5/64)
+/dev/ptyt1:                       character special (5/65)
+/dev/ptyt2:                       character special (5/66)
+/dev/ptyt3:                       character special (5/67)
+/dev/ptyt4:                       character special (5/68)
+/dev/ptyt5:                       character special (5/69)
+/dev/ptyt6:                       character special (5/70)
+/dev/ptyt7:                       character special (5/71)
+/dev/ptyt8:                       character special (5/72)
+/dev/ptyt9:                       character special (5/73)
+/dev/ptyta:                       character special (5/74)
+/dev/ptytb:                       character special (5/75)
+/dev/ptytc:                       character special (5/76)
+/dev/ptytd:                       character special (5/77)
+/dev/ptyte:                       character special (5/78)
+/dev/ptytf:                       character special (5/79)
+/dev/ptyu0:                       character special (5/80)
+/dev/ptyu1:                       character special (5/81)
+/dev/ptyu2:                       character special (5/82)
+/dev/ptyu3:                       character special (5/83)
+/dev/ptyu4:                       character special (5/84)
+/dev/ptyu5:                       character special (5/85)
+/dev/ptyu6:                       character special (5/86)
+/dev/ptyu7:                       character special (5/87)
+/dev/ptyu8:                       character special (5/88)
+/dev/ptyu9:                       character special (5/89)
+/dev/ptyua:                       character special (5/90)
+/dev/ptyub:                       character special (5/91)
+/dev/ptyuc:                       character special (5/92)
+/dev/ptyud:                       character special (5/93)
+/dev/ptyue:                       character special (5/94)
+/dev/ptyuf:                       character special (5/95)
+/dev/ptyv0:                       character special (5/96)
+/dev/ptyv1:                       character special (5/97)
+/dev/ptyv2:                       character special (5/98)
+/dev/ptyv3:                       character special (5/99)
+/dev/ptyv4:                       character special (5/100)
+/dev/ptyv5:                       character special (5/101)
+/dev/ptyv6:                       character special (5/102)
+/dev/ptyv7:                       character special (5/103)
+/dev/ptyv8:                       character special (5/104)
+/dev/ptyv9:                       character special (5/105)
+/dev/ptyva:                       character special (5/106)
+/dev/ptyvb:                       character special (5/107)
+/dev/ptyvc:                       character special (5/108)
+/dev/ptyvd:                       character special (5/109)
+/dev/ptyve:                       character special (5/110)
+/dev/ptyvf:                       character special (5/111)
+/dev/ptyw0:                       character special (5/112)
+/dev/ptyw1:                       character special (5/113)
+/dev/ptyw2:                       character special (5/114)
+/dev/ptyw3:                       character special (5/115)
+/dev/ptyw4:                       character special (5/116)
+/dev/ptyw5:                       character special (5/117)
+/dev/ptyw6:                       character special (5/118)
+/dev/ptyw7:                       character special (5/119)
+/dev/ptyw8:                       character special (5/120)
+/dev/ptyw9:                       character special (5/121)
+/dev/ptywa:                       character special (5/122)
+/dev/ptywb:                       character special (5/123)
+/dev/ptywc:                       character special (5/124)
+/dev/ptywd:                       character special (5/125)
+/dev/ptywe:                       character special (5/126)
+/dev/ptywf:                       character special (5/127)
+/dev/random:                      character special (17/0)
+/dev/rdisk0:                      character special (1/0)
+/dev/rdisk0s1:                    character special (1/1)
+/dev/rdisk0s2:                    character special (1/2)
+/dev/rdisk1:                      character special (1/3)
+/dev/rdisk1s1:                    character special (1/4)
+/dev/rdisk1s2:                    character special (1/5)
+/dev/rdisk1s3:                    character special (1/6)
+/dev/rdisk1s4:                    character special (1/8)
+/dev/rdisk1s5:                    character special (1/7)
+/dev/sdt:                         character special (0/0)
+/dev/stderr:                      character special (16/0)
+/dev/stdin:                       character special (16/0)
+/dev/stdout:                      cannot open: Permission denied
+/dev/systrace:                    character special (0/0)
+/dev/tty:                         character special (2/0)
+/dev/tty.Bluetooth-Incoming-Port: character special (9/0)
+/dev/ttyp0:                       character special (4/0)
+/dev/ttyp1:                       character special (4/1)
+/dev/ttyp2:                       character special (4/2)
+/dev/ttyp3:                       character special (4/3)
+/dev/ttyp4:                       character special (4/4)
+/dev/ttyp5:                       character special (4/5)
+/dev/ttyp6:                       character special (4/6)
+/dev/ttyp7:                       character special (4/7)
+/dev/ttyp8:                       character special (4/8)
+/dev/ttyp9:                       character special (4/9)
+/dev/ttypa:                       character special (4/10)
+/dev/ttypb:                       character special (4/11)
+/dev/ttypc:                       character special (4/12)
+/dev/ttypd:                       character special (4/13)
+/dev/ttype:                       character special (4/14)
+/dev/ttypf:                       character special (4/15)
+/dev/ttyq0:                       character special (4/16)
+/dev/ttyq1:                       character special (4/17)
+/dev/ttyq2:                       character special (4/18)
+/dev/ttyq3:                       character special (4/19)
+/dev/ttyq4:                       character special (4/20)
+/dev/ttyq5:                       character special (4/21)
+/dev/ttyq6:                       character special (4/22)
+/dev/ttyq7:                       character special (4/23)
+/dev/ttyq8:                       character special (4/24)
+/dev/ttyq9:                       character special (4/25)
+/dev/ttyqa:                       character special (4/26)
+/dev/ttyqb:                       character special (4/27)
+/dev/ttyqc:                       character special (4/28)
+/dev/ttyqd:                       character special (4/29)
+/dev/ttyqe:                       character special (4/30)
+/dev/ttyqf:                       character special (4/31)
+/dev/ttyr0:                       character special (4/32)
+/dev/ttyr1:                       character special (4/33)
+/dev/ttyr2:                       character special (4/34)
+/dev/ttyr3:                       character special (4/35)
+/dev/ttyr4:                       character special (4/36)
+/dev/ttyr5:                       character special (4/37)
+/dev/ttyr6:                       character special (4/38)
+/dev/ttyr7:                       character special (4/39)
+/dev/ttyr8:                       character special (4/40)
+/dev/ttyr9:                       character special (4/41)
+/dev/ttyra:                       character special (4/42)
+/dev/ttyrb:                       character special (4/43)
+/dev/ttyrc:                       character special (4/44)
+/dev/ttyrd:                       character special (4/45)
+/dev/ttyre:                       character special (4/46)
+/dev/ttyrf:                       character special (4/47)
+/dev/ttys0:                       character special (4/48)
+/dev/ttys000:                     character special (16/0)
+/dev/ttys001:                     character special (16/1)
+/dev/ttys1:                       character special (4/49)
+/dev/ttys2:                       character special (4/50)
+/dev/ttys3:                       character special (4/51)
+/dev/ttys4:                       character special (4/52)
+/dev/ttys5:                       character special (4/53)
+/dev/ttys6:                       character special (4/54)
+/dev/ttys7:                       character special (4/55)
+/dev/ttys8:                       character special (4/56)
+/dev/ttys9:                       character special (4/57)
+/dev/ttysa:                       character special (4/58)
+/dev/ttysb:                       character special (4/59)
+/dev/ttysc:                       character special (4/60)
+/dev/ttysd:                       character special (4/61)
+/dev/ttyse:                       character special (4/62)
+/dev/ttysf:                       character special (4/63)
+/dev/ttyt0:                       character special (4/64)
+/dev/ttyt1:                       character special (4/65)
+/dev/ttyt2:                       character special (4/66)
+/dev/ttyt3:                       character special (4/67)
+/dev/ttyt4:                       character special (4/68)
+/dev/ttyt5:                       character special (4/69)
+/dev/ttyt6:                       character special (4/70)
+/dev/ttyt7:                       character special (4/71)
+/dev/ttyt8:                       character special (4/72)
+/dev/ttyt9:                       character special (4/73)
+/dev/ttyta:                       character special (4/74)
+/dev/ttytb:                       character special (4/75)
+/dev/ttytc:                       character special (4/76)
+/dev/ttytd:                       character special (4/77)
+/dev/ttyte:                       character special (4/78)
+/dev/ttytf:                       character special (4/79)
+/dev/ttyu0:                       character special (4/80)
+/dev/ttyu1:                       character special (4/81)
+/dev/ttyu2:                       character special (4/82)
+/dev/ttyu3:                       character special (4/83)
+/dev/ttyu4:                       character special (4/84)
+/dev/ttyu5:                       character special (4/85)
+/dev/ttyu6:                       character special (4/86)
+/dev/ttyu7:                       character special (4/87)
+/dev/ttyu8:                       character special (4/88)
+/dev/ttyu9:                       character special (4/89)
+/dev/ttyua:                       character special (4/90)
+/dev/ttyub:                       character special (4/91)
+/dev/ttyuc:                       character special (4/92)
+/dev/ttyud:                       character special (4/93)
+/dev/ttyue:                       character special (4/94)
+/dev/ttyuf:                       character special (4/95)
+/dev/ttyv0:                       character special (4/96)
+/dev/ttyv1:                       character special (4/97)
+/dev/ttyv2:                       character special (4/98)
+/dev/ttyv3:                       character special (4/99)
+/dev/ttyv4:                       character special (4/100)
+/dev/ttyv5:                       character special (4/101)
+/dev/ttyv6:                       character special (4/102)
+/dev/ttyv7:                       character special (4/103)
+/dev/ttyv8:                       character special (4/104)
+/dev/ttyv9:                       character special (4/105)
+/dev/ttyva:                       character special (4/106)
+/dev/ttyvb:                       character special (4/107)
+/dev/ttyvc:                       character special (4/108)
+/dev/ttyvd:                       character special (4/109)
+/dev/ttyve:                       character special (4/110)
+/dev/ttyvf:                       character special (4/111)
+/dev/ttyw0:                       character special (4/112)
+/dev/ttyw1:                       character special (4/113)
+/dev/ttyw2:                       character special (4/114)
+/dev/ttyw3:                       character special (4/115)
+/dev/ttyw4:                       character special (4/116)
+/dev/ttyw5:                       character special (4/117)
+/dev/ttyw6:                       character special (4/118)
+/dev/ttyw7:                       character special (4/119)
+/dev/ttyw8:                       character special (4/120)
+/dev/ttyw9:                       character special (4/121)
+/dev/ttywa:                       character special (4/122)
+/dev/ttywb:                       character special (4/123)
+/dev/ttywc:                       character special (4/124)
+/dev/ttywd:                       character special (4/125)
+/dev/ttywe:                       character special (4/126)
+/dev/ttywf:                       character special (4/127)
+/dev/uart.BLTH:                   character special (35/0)
+/dev/urandom:                     character special (17/1)
+/dev/vboxdrv:                     character special (36/0)
+/dev/vboxdrvu:                    character special (36/1)
+/dev/vboxnetctl:                  character special (37/0)
+/dev/xcpm:                        character special (21/0)
+/dev/zero:                        character special (3/3)
+file /sbin/ifconfig
+/sbin/ifconfig: Mach-O 64-bit executable x86_64
+file /etc/hosts
+/etc/hosts: ASCII text
+file /dev/disk0
+/dev/disk0: block special (1/0)
+// tasks d, e, f could not be completed on mac os 
