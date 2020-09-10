@@ -1,0 +1,38 @@
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % mkdir -p /var/tmp/test/mytest                                                                                                                                                  master
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % cd /var/tmp/test/mytest                                                                                                                                                        master
+electfreak@MacBook-Pro-Arsenij mytest % touch index.html
+electfreak@MacBook-Pro-Arsenij mytest % touch main.css
+electfreak@MacBook-Pro-Arsenij mytest % touch script.js
+electfreak@MacBook-Pro-Arsenij mytest % file *.*
+index.html: empty
+main.css:   empty
+script.js:  empty
+electfreak@MacBook-Pro-Arsenij mytest % cp /etc/hosts .
+electfreak@MacBook-Pro-Arsenij mytest % ls
+hosts		index.html	main.css	script.js
+electfreak@MacBook-Pro-Arsenij mytest % mv index.html hosts
+electfreak@MacBook-Pro-Arsenij mytest % ls
+hosts		main.css	script.js
+electfreak@MacBook-Pro-Arsenij mytest % rm main.css script.js
+electfreak@MacBook-Pro-Arsenij mytest % ls
+hosts
+electfreak@MacBook-Pro-Arsenij mytest % mkdir ~/tmp
+electfreak@MacBook-Pro-Arsenij mytest % mv * ~/tmp 
+electfreak@MacBook-Pro-Arsenij mytest % rm -rf /var/tmp/test/mytest/*
+zsh: sure you want to delete all the files in /var/tmp/test/mytest [yn]? y
+zsh: no matches found: /var/tmp/test/mytest/*
+electfreak@MacBook-Pro-Arsenij mytest % rm -rf /vat/tmp/test
+electfreak@MacBook-Pro-Arsenij mytest % cd ~/tmp
+electfreak@MacBook-Pro-Arsenij tmp % touch digits.txt 
+electfreak@MacBook-Pro-Arsenij tmp % echo "0 1 2 3 4 5 6 7 8 9" > digits.txt
+electfreak@MacBook-Pro-Arsenij tmp % cat digits.txt
+0 1 2 3 4 5 6 7 8 9
+electfreak@MacBook-Pro-Arsenij tmp % wc digits.txt
+       1      10      20 digits.txt
+electfreak@MacBook-Pro-Arsenij tmp % touch start end
+electfreak@MacBook-Pro-Arsenij tmp % head -n 5 /etc/passwd > start 
+electfreak@MacBook-Pro-Arsenij tmp % tail -n 5 /etc/passwd > end
+electfreak@MacBook-Pro-Arsenij tmp % touch filenames
+electfreak@MacBook-Pro-Arsenij tmp % ls /etc > filenames
+electfreak@MacBook-Pro-Arsenij tmp % ls /etc | cat -n | tail -n 1
+   111	zshrc_Apple_Terminal
