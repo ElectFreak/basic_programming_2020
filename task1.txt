@@ -1,0 +1,13 @@
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % id                                                                                                                                                                             master
+uid=501(electfreak) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),98(_lpadmin),33(_appstore),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae),701(com.apple.sharepoint.group.1)
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % date                                                                                                                                                                           master
+четверг, 10 сентября 2020 г. 13:59:56 (MSK)
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % pwd                                                                                                                                                                            master
+/Users/electfreak/Desktop/basic_programming_2020
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % ls                                                                                                                                                                             master
+reports
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % ls -l                                                                                                                                                                          master
+total 0
+drwxr-xr-x  3 electfreak  staff  96 10 сен 13:59 reports
+electfreak@MacBook-Pro-Arsenij basic_programming_2020 % ls -a                                                                                                                                                                          master
+.	..	.git	reports
