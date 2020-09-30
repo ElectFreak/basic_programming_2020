@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-30T11:55:07" hostname="MacBook-Pro-Arsenij.local" time="0.015">
+  <properties/>
+  <testcase name="printFibonacci" classname="MainKtTest" time="0.015"/>
+  <system-out><![CDATA[0
+1
+1
+2
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
